@@ -12,7 +12,6 @@ const Dashboard = (user) => {
     let displayName = user.displayName;
     let photoURL = user.photoURL;
     let email = user.email;
-    let uid = user.uid;
 
     const element = document.createElement('div');
     element.classList.add('Dashboard');
